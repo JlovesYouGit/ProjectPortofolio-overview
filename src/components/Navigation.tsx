@@ -36,7 +36,7 @@ const Navigation = () => {
               </Link>
             ))}
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/jj-onthelaptop-318538383"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
@@ -73,7 +73,7 @@ const Navigation = () => {
               </Link>
             ))}
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/jj-onthelaptop-318538383"
               target="_blank"
               rel="noopener noreferrer"
               className="block py-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"

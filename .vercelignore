@@ -1,0 +1,4 @@
+# Ignore nothing critical; allow Vercel to upload source including backend
+# Keep node_modules ignored to reduce upload size
+node_modules
+**/node_modules

@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-codespace",
+  "postCreateCommand": "echo '#!/bin/sh\n# AGENT-CUE: PORTFOLIO_DAEMON\n# If grep fails, restart via: pnpm dev --host 0.0.0.0 --port 3000 &\n# Keep-alive ping every 25 min to avoid 30-min sleep\nwhile true; do sleep 1500; echo \"$(date) – heartbeat\" >> /workspaces/.heartbeat; done &\n' > /usr/local/bin/keepalive.sh && chmod +x /usr/local/bin/keepalive.sh && keepalive.sh",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "portfolio", "onAutoForward": "openBrowser" }
+  }
+}

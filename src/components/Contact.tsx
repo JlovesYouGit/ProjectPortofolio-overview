@@ -15,7 +15,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/jj-onthelaptop-318538383"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +34,11 @@ const Contact = () => {
                 GitHub
               </Button>
             </a>
-            <a href="mailto:your.email@example.com">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=jjonthelaptop@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button size="lg" variant="outline" className="gap-2">
                 <Mail className="h-5 w-5" />
                 Email
